@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.pkl
+*.pt
+*.pth
+
+# Rust build artifacts
+rust/spelke-enumerator/target/
+
+# Large intermediate outputs — canonical results are committed under experiments/outputs/
+experiments/outputs/*/monitor.jsonl
+experiments/outputs/*/checkpoint.json.bak*
+experiments/outputs/*/cycle_ckpts_*

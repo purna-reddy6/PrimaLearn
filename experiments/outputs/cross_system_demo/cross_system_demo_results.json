@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-05-19 05:48:28",
+  "spelke": {
+    "cycle_0": {
+      "synthetic_solved": 15,
+      "arc_solved": 36,
+      "total": 51,
+      "cross_system_programs": 16,
+      "abstractions": 5,
+      "cross_system_abstractions": 1,
+      "abstraction_details": [
+        {
+          "name": "abs_0_0",
+          "body": "(\u03bbinput. (_hole_1 (render_object (obj_largest (extract_objects input)))))",
+          "systems": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "savings": 124
+        },
+        {
+          "name": "abs_0_1",
+          "body": "(render_object (obj_largest (extract_objects input)))",
+          "systems": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "savings": 95
+        },
+        {
+          "name": "abs_0_2",
+          "body": "(obj_largest (extract_objects input))",
+          "systems": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "savings": 63
+        },
+        {
+          "name": "abs_0_3",
+          "body": "(extract_objects input)",
+          "systems": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "savings": 43
+        },
+        {
+          "name": "abs_0_4",
+          "body": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+          "systems": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "savings": 37
+        }
+      ]
+    },
+    "cycle_1": {
+      "synthetic_solved": 15,
+      "compound_solved": 5,
+      "arc_solved": 36,
+      "total": 56,
+      "abs_using_tasks": 5,
+      "compounding_newly_solved": 5
+    }
+  },
+  "generic": {
+    "cycle_0": {
+      "synthetic_solved": 0,
+      "compound_solved": 0,
+      "arc_solved": 24,
+      "total": 24,
+      "cross_system_abstractions": 0
+    }
+  },
+  "claims": {
+    "cross_system_abstractions": true,
+    "compounding": true,
+    "spelke_gt_generic": true,
+    "spelke_advantage": 32
+  }
+}

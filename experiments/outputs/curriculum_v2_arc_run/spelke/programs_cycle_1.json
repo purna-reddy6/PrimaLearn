@@ -1,0 +1,1750 @@
+{
+  "synth_synth_flip_h_0": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_0",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_flip_h_1": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_1",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_flip_h_2": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_2",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_flip_v_0": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_0",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_flip_v_1": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_1",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_flip_v_2": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_2",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate180_0": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_0",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate180_1": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_1",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate180_2": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_2",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate270_0": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_0",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate270_1": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_1",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate270_2": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_2",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate90_0": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_0",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate90_1": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_1",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "synth_synth_rotate90_2": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_2",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_00": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_00",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_01": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_01",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_02": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_02",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_03": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_03",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_04": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_04",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_05": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_05",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_06": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_06",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_07": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_07",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_08": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_08",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_09": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_09",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_10": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_10",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_11": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_11",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_12": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_12",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_13": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_13",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_14": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_14",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_15": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_15",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_16": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_16",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_17": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_17",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_18": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_18",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_19": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_19",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_20": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_20",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_21": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_21",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_22": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_22",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_23": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_23",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_24": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_24",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_25": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_25",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_26": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_26",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_27": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_27",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_28": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_28",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "no_synth_count_render_29": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_29",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_02": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_02",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_06": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_06",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_10": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_10",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_14": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_14",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_18": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_18",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_22": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_22",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_h_q2_26": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_26",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_03": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_03",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_07": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_07",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_11": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_11",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_15": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_15",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_19": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_19",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_23": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_23",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_flip_v_q3_27": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_27",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_01": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_01",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_05": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_05",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_09": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_09",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_13": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_13",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_17": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_17",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_21": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_21",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_25": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_25",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate180_q1_29": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_29",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_00": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_00",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_04": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_04",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_08": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_08",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_12": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_12",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_16": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_16",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_20": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_20",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_24": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_24",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "fop_synth_fop_rotate90_q0_28": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_28",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_00": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_00",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_01": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_01",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_02": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_02",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_03": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_03",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_04": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_04",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_05": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_05",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_06": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_06",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_07": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_07",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_08": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_08",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_09": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_09",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_10": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_10",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_11": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_11",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_12": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_12",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_13": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_13",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_14": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_14",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_15": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_15",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_16": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_16",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_17": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_17",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_18": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_18",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_19": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_19",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_20": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_20",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_21": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_21",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_22": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_22",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_23": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_23",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_24": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_24",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_25": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_25",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_26": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_26",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_27": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_27",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_28": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_28",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "nor_synth_tile_n_29": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_29",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_00": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_00",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_01": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_01",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_02": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_02",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_03": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_03",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_04": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_04",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_05": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_05",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_06": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_06",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_07": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_07",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_08": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_08",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_09": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_09",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_10": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_10",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_11": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_11",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_12": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_12",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_13": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_13",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_14": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_14",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_15": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_15",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_16": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_16",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_17": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_17",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_18": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_18",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_19": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_19",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_20": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_20",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_21": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_21",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_22": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_22",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_23": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_23",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_24": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_24",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_25": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_25",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_26": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_26",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_27": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_27",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_28": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_28",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "cells_synth_count_cells_29": {
+    "source_code": "<no-ast>",
+    "description_length": 0,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_29",
+    "source": "ast_solver",
+    "primitives": []
+  },
+  "00d62c1b": {
+    "source_code": "(\u03bbinput. ((fill_interior input) 4))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "00d62c1b",
+    "source": "ast_solver",
+    "primitives": [
+      "fill_interior"
+    ]
+  },
+  "08ed6ac7": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "08ed6ac7",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "1cf80156": {
+    "source_code": "(\u03bbinput. (render_objects (extract_objects input)))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1cf80156",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "render_objects"
+    ]
+  },
+  "1e0a9b12": {
+    "source_code": "(\u03bbinput. (gravity_down input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1e0a9b12",
+    "source": "ast_solver",
+    "primitives": [
+      "gravity_down"
+    ]
+  },
+  "1f85a75f": {
+    "source_code": "(\u03bbinput. (render_object (obj_largest (extract_objects input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1f85a75f",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "22eb0ac0": {
+    "source_code": "heuristic:line_extension",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "22eb0ac0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "23b5c85d": {
+    "source_code": "(\u03bbinput. (rotate180 (render_object (obj_smallest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "23b5c85d",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_smallest",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "25ff71a9": {
+    "source_code": "heuristic:analogy",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "25ff71a9",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "3906de3d": {
+    "source_code": "(\u03bbinput. (gravity_up input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3906de3d",
+    "source": "ast_solver",
+    "primitives": [
+      "gravity_up"
+    ]
+  },
+  "3af2c5a8": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3af2c5a8",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "3c9b0459": {
+    "source_code": "(\u03bbinput. (rotate180 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3c9b0459",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate180"
+    ]
+  },
+  "496994bd": {
+    "source_code": "(\u03bbinput. ((overlay input) (flip_v input)))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "496994bd",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "overlay"
+    ]
+  },
+  "4c4377d9": {
+    "source_code": "(\u03bbinput. ((vstack_grid (flip_v input)) input))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "4c4377d9",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "vstack_grid"
+    ]
+  },
+  "5bd6f4ac": {
+    "source_code": "heuristic:grid_partition",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "5bd6f4ac",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "6150a2bd": {
+    "source_code": "(\u03bbinput. (rotate180 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6150a2bd",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate180"
+    ]
+  },
+  "623ea044": {
+    "source_code": "heuristic:diagonal_fill",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "623ea044",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "62c24649": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "62c24649",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "67a3c6ac": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67a3c6ac",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "67e8384a": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67e8384a",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "68b16354": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "68b16354",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "6d0aefbc": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6d0aefbc",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "6e82a1ae": {
+    "source_code": "(\u03bbinput. (extract_objects input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6e82a1ae",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects"
+    ]
+  },
+  "6fa7a44f": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6fa7a44f",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "74dd1130": {
+    "source_code": "(\u03bbinput. (transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "74dd1130",
+    "source": "ast_solver",
+    "primitives": [
+      "transpose"
+    ]
+  },
+  "7b7f7511": {
+    "source_code": "(\u03bbinput. (extract_tile input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "7b7f7511",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_tile"
+    ]
+  },
+  "8be77c9e": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "8be77c9e",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "9172f3a0": {
+    "source_code": "(\u03bbinput. ((scale_up input) 3))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9172f3a0",
+    "source": "ast_solver",
+    "primitives": [
+      "scale_up"
+    ]
+  },
+  "9dfd6313": {
+    "source_code": "(\u03bbinput. (transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9dfd6313",
+    "source": "ast_solver",
+    "primitives": [
+      "transpose"
+    ]
+  },
+  "a416b8f3": {
+    "source_code": "(\u03bbinput. (((tile input) 1) 2))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a416b8f3",
+    "source": "ast_solver",
+    "primitives": [
+      "tile"
+    ]
+  },
+  "a5313dff": {
+    "source_code": "(\u03bbinput. ((fill_interior input) 1))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a5313dff",
+    "source": "ast_solver",
+    "primitives": [
+      "fill_interior"
+    ]
+  },
+  "a79310a0": {
+    "source_code": "heuristic:analogy",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a79310a0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "ac0a08a4": {
+    "source_code": "(\u03bbinput. ((scale_up input) (count_objects (extract_objects input))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ac0a08a4",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "scale_up"
+    ]
+  },
+  "aedd82e4": {
+    "source_code": "(\u03bbinput. (extract_objects input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "aedd82e4",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects"
+    ]
+  },
+  "b1948b0a": {
+    "source_code": "(\u03bbinput. (((replace_color input) 6) 2))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b1948b0a",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "b6afb2da": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b6afb2da",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "bb43febb": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "bb43febb",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "be94b721": {
+    "source_code": "(\u03bbinput. (render_object (obj_largest (extract_objects input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "be94b721",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "c59eb873": {
+    "source_code": "(\u03bbinput. ((scale_up input) 2))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c59eb873",
+    "source": "ast_solver",
+    "primitives": [
+      "scale_up"
+    ]
+  },
+  "c8f0f002": {
+    "source_code": "(\u03bbinput. (((replace_color input) 7) 5))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c8f0f002",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "c9e6f938": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c9e6f938",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "d511f180": {
+    "source_code": "(\u03bbinput. (((replace_color (((replace_color input) 8) 5)) 5) 8))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d511f180",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "d631b094": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d631b094",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "d9fac9be": {
+    "source_code": "(\u03bbinput. (rotate90 (render_object (obj_smallest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d9fac9be",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_smallest",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "ea32f347": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ea32f347",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "ed36ccf7": {
+    "source_code": "(\u03bbinput. (rotate270 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ed36ccf7",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate270"
+    ]
+  },
+  "f25ffba3": {
+    "source_code": "(\u03bbinput. ((overlay input) (flip_v input)))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "f25ffba3",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "overlay"
+    ]
+  },
+  "b9b7f026": {
+    "source_code": "(\u03bbinput. (abs_1_11 (gravity_right (gravity_down input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b9b7f026",
+    "source": "ast_solver",
+    "primitives": [
+      "abs_1_11",
+      "gravity_down",
+      "gravity_right"
+    ]
+  }
+}

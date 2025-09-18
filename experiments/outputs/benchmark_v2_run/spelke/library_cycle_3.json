@@ -1,0 +1,3770 @@
+{
+  "cycle": 4,
+  "base_registry": {
+    "total_primitives": 209,
+    "cardinality_by_system": {
+      "OBJECTS": 38,
+      "AGENTS": 11,
+      "PLACES": 17,
+      "FORMS": 32,
+      "NUMBER": 45,
+      "GLUE": 23,
+      "ANALOGY": 3,
+      "NSM": 7
+    },
+    "primitives": [
+      {
+        "name": "extract_objects",
+        "type": "grid \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Cohesion: extract connected components (4-connected)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "extract_objects_8conn",
+        "type": "grid \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Cohesion: extract connected components (8-connected)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "extract_objects_multicolor",
+        "type": "grid \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Extract objects ignoring color boundaries",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_touching",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "Contact: are two objects 4-adjacent?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_overlapping",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "Do two objects share cells?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_z_order",
+        "type": "list[object] \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Occlusion: order by implied depth",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_copy",
+        "type": "object \u2192 object",
+        "system": "OBJECTS",
+        "description": "Copy an object",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_translate",
+        "type": "object \u2192 int \u2192 int \u2192 object",
+        "system": "OBJECTS",
+        "description": "Continuity: translate by (dr, dc)",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_rotate90",
+        "type": "object \u2192 object",
+        "system": "OBJECTS",
+        "description": "Rotate 90\u00b0 clockwise",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_reflect_h",
+        "type": "object \u2192 object",
+        "system": "OBJECTS",
+        "description": "Reflect horizontally",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_reflect_v",
+        "type": "object \u2192 object",
+        "system": "OBJECTS",
+        "description": "Reflect vertically",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_bbox",
+        "type": "object \u2192 (point, point)",
+        "system": "OBJECTS",
+        "description": "Bounding box",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_recolor",
+        "type": "object \u2192 color \u2192 object",
+        "system": "OBJECTS",
+        "description": "Change object color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_color",
+        "type": "object \u2192 color",
+        "system": "OBJECTS",
+        "description": "Get object color",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_size",
+        "type": "object \u2192 int",
+        "system": "OBJECTS",
+        "description": "Get object cell count",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_position",
+        "type": "object \u2192 point",
+        "system": "OBJECTS",
+        "description": "Get top-left position",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_same_shape",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "Persistence: translation-invariant shape match",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_filter_color",
+        "type": "list[object] \u2192 color \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Filter objects by color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_filter_size",
+        "type": "list[object] \u2192 int \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Filter objects by size",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_largest",
+        "type": "list[object] \u2192 object",
+        "system": "OBJECTS",
+        "description": "Get largest object",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_smallest",
+        "type": "list[object] \u2192 object",
+        "system": "OBJECTS",
+        "description": "Get smallest object",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_sort_size",
+        "type": "list[object] \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Sort by size ascending",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_sort_position",
+        "type": "list[object] \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "Sort by position (top-left)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "obj_to_grid",
+        "type": "object \u2192 int \u2192 int \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Render object to grid of size h\u00d7w",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "crop",
+        "type": "grid \u2192 int \u2192 int \u2192 int \u2192 int \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Crop grid region",
+        "arity": 5,
+        "log_probability": 0.0
+      },
+      {
+        "name": "fill_rect",
+        "type": "grid \u2192 int \u2192 int \u2192 int \u2192 int \u2192 color \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Fill rectangular region with color",
+        "arity": 6,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grid_colors",
+        "type": "grid \u2192 list[color]",
+        "system": "OBJECTS",
+        "description": "Get unique non-background colors",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "background_color",
+        "type": "grid \u2192 color",
+        "system": "OBJECTS",
+        "description": "Detect background (most common) color",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "render_objects",
+        "type": "list[object] \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Bridge: render list of objects back onto grid-shaped canvas",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "render_objects_on",
+        "type": "grid \u2192 list[object] \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Bridge: paint objects onto existing grid (preserves background)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "render_object",
+        "type": "object \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Bridge: render single object as minimal bounding-box grid",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "count_objects",
+        "type": "list[object] \u2192 int",
+        "system": "OBJECTS",
+        "description": "Bridge: count objects in list (concrete-typed)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gravity_down",
+        "type": "grid \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Slide non-background cells downward within each column",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gravity_up",
+        "type": "grid \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Slide non-background cells upward within each column",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gravity_left",
+        "type": "grid \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Slide non-background cells leftward within each row",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gravity_right",
+        "type": "grid \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Slide non-background cells rightward within each row",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "flood_fill",
+        "type": "grid \u2192 color \u2192 color \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Replace connected region of target_color with fill_color",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "fill_interior",
+        "type": "grid \u2192 color \u2192 grid",
+        "system": "OBJECTS",
+        "description": "Fill enclosed interior zero regions with fill_color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "rotate_n",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "FORMS",
+        "description": "FORMS+NUMBER bridge: rotate grid by n*90 degrees clockwise (n=0,1,2,3)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "rotate90",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Rotate grid 90\u00b0 clockwise",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "rotate180",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Rotate grid 180\u00b0",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "rotate270",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Rotate grid 270\u00b0 clockwise",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "flip_h",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Flip grid horizontally",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "flip_v",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Flip grid vertically",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "transpose",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Transpose grid",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sym_horizontal",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Test left-right mirror symmetry",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sym_vertical",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Test top-bottom mirror symmetry",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sym_rot90",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Test 90\u00b0 rotational symmetry",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sym_rot180",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Test 180\u00b0 rotational symmetry",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sym_diagonal",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Test main-diagonal symmetry",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "tile",
+        "type": "grid \u2192 int \u2192 int \u2192 grid",
+        "system": "FORMS",
+        "description": "Tile pattern n_rows \u00d7 n_cols",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_periodic",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Check if grid is a periodic tiling",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "find_period",
+        "type": "grid \u2192 (int, int)",
+        "system": "FORMS",
+        "description": "Find minimal period (height, width)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "extract_tile",
+        "type": "grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Extract minimal repeating unit",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "draw_line",
+        "type": "grid \u2192 int \u2192 int \u2192 int \u2192 int \u2192 color \u2192 grid",
+        "system": "FORMS",
+        "description": "Draw line (Bresenham)",
+        "arity": 6,
+        "log_probability": 0.0
+      },
+      {
+        "name": "scale_up",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "FORMS",
+        "description": "Scale grid up by integer factor",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "scale_down",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "FORMS",
+        "description": "Scale grid down by integer factor",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "resize",
+        "type": "grid \u2192 int \u2192 int \u2192 grid",
+        "system": "FORMS",
+        "description": "Resize grid to h\u00d7w",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grids_equal",
+        "type": "grid \u2192 grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Are two grids identical?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grid_diff",
+        "type": "grid \u2192 grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Compute cell-wise difference mask",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "count_colors",
+        "type": "grid \u2192 int",
+        "system": "FORMS",
+        "description": "Count unique colors",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "replace_color",
+        "type": "grid \u2192 color \u2192 color \u2192 grid",
+        "system": "FORMS",
+        "description": "Replace all cells of one color with another",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grid_height",
+        "type": "grid \u2192 int",
+        "system": "FORMS",
+        "description": "Grid height",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grid_width",
+        "type": "grid \u2192 int",
+        "system": "FORMS",
+        "description": "Grid width",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_square",
+        "type": "grid \u2192 bool",
+        "system": "FORMS",
+        "description": "Is grid square?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "make_border",
+        "type": "grid \u2192 color \u2192 grid",
+        "system": "FORMS",
+        "description": "Add 1-cell border",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "hollow_rect",
+        "type": "int \u2192 int \u2192 color \u2192 grid",
+        "system": "FORMS",
+        "description": "Create hollow rectangle",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "overlay",
+        "type": "grid \u2192 grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Overlay grids (0 = transparent)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "vstack_grid",
+        "type": "grid \u2192 grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Stack two grids vertically",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "hstack_grid",
+        "type": "grid \u2192 grid \u2192 grid",
+        "system": "FORMS",
+        "description": "Stack two grids horizontally",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "ots_count",
+        "type": "list[object] \u2192 int",
+        "system": "NUMBER",
+        "description": "OTS: exact count \u22643, returns -1 for >3 (signature limit)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_one",
+        "type": "list[object] \u2192 bool",
+        "system": "NUMBER",
+        "description": "OTS: exactly one item?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_two",
+        "type": "list[object] \u2192 bool",
+        "system": "NUMBER",
+        "description": "OTS: exactly two items?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_three",
+        "type": "list[object] \u2192 bool",
+        "system": "NUMBER",
+        "description": "OTS: exactly three items?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "ans_greater",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "ANS: is n1 detectably greater than n2? (Weber's law)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "ans_approx_equal",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "ANS: are n1 and n2 approximately equal?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "count",
+        "type": "list[object] \u2192 int",
+        "system": "NUMBER",
+        "description": "Cardinal principle: exact count (bootstrapped)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "add",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Addition",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sub",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Subtraction (floored at 0)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "mul",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Multiplication",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "div",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Integer division",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "mod",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Modulo",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "eq",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Equality",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "neq",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Inequality",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gt",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Greater than",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "lt",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Less than",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "gte",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Greater or equal",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "lte",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "NUMBER",
+        "description": "Less or equal",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "max2",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Maximum of two",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "min2",
+        "type": "int \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "Minimum of two",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "abs",
+        "type": "int \u2192 int",
+        "system": "NUMBER",
+        "description": "Absolute value",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "succ",
+        "type": "int \u2192 int",
+        "system": "NUMBER",
+        "description": "Successor function \u2014 heart of cardinal-principle bootstrap",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "pred",
+        "type": "int \u2192 int",
+        "system": "NUMBER",
+        "description": "Predecessor (floored at 0)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "range",
+        "type": "int \u2192 list[int]",
+        "system": "NUMBER",
+        "description": "Generate [0..n-1]",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sum",
+        "type": "list[int] \u2192 int",
+        "system": "NUMBER",
+        "description": "Sum of list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "max_list",
+        "type": "list[int] \u2192 int",
+        "system": "NUMBER",
+        "description": "Max of list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "min_list",
+        "type": "list[int] \u2192 int",
+        "system": "NUMBER",
+        "description": "Min of list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sort_asc",
+        "type": "list[int] \u2192 list[int]",
+        "system": "NUMBER",
+        "description": "Sort ascending",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "sort_desc",
+        "type": "list[int] \u2192 list[int]",
+        "system": "NUMBER",
+        "description": "Sort descending",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "unique",
+        "type": "list[int] \u2192 list[int]",
+        "system": "NUMBER",
+        "description": "Unique elements preserving order",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "length",
+        "type": "list[object] \u2192 int",
+        "system": "NUMBER",
+        "description": "Length of list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "render_count_colored",
+        "type": "int \u2192 color \u2192 grid",
+        "system": "NUMBER",
+        "description": "NUMBER+OBJECTS bridge: render count n as 1\u00d7n grid of given color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "tile_n",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "NUMBER",
+        "description": "NUMBER+OBJECTS bridge: tile grid n times horizontally",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "count_cells",
+        "type": "grid \u2192 int",
+        "system": "NUMBER",
+        "description": "NUMBER+OBJECTS bridge: count total non-zero cells in grid (not connected components)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "count_in_quadrant",
+        "type": "grid \u2192 int \u2192 int",
+        "system": "NUMBER",
+        "description": "NUMBER+PLACES bridge: count objects in given quadrant (0=TL,1=TR,2=BL,3=BR)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "zero",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 0",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "one",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 1",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "two",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 2",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "three",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 3",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "four",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 4",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "five",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 5",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "six",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 6",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "seven",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 7",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "eight",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 8",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "nine",
+        "type": "int",
+        "system": "NUMBER",
+        "description": "Constant 9",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "trace_path",
+        "type": "grid \u2192 color \u2192 color \u2192 grid",
+        "system": "AGENTS",
+        "description": "Draw shortest path from agent color to goal color on grid",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "move_toward",
+        "type": "grid \u2192 color \u2192 color \u2192 grid",
+        "system": "AGENTS",
+        "description": "Move agent one step toward goal (rational efficiency)",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "move_to_goal",
+        "type": "grid \u2192 color \u2192 color \u2192 grid",
+        "system": "AGENTS",
+        "description": "Move agent directly to goal position",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "infer_goal_dir",
+        "type": "grid \u2192 color \u2192 int",
+        "system": "AGENTS",
+        "description": "Infer likely goal direction from agent position (0=up,1=down,2=left,3=right)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "is_rational_path",
+        "type": "grid \u2192 color \u2192 color \u2192 color \u2192 bool",
+        "system": "AGENTS",
+        "description": "Check if a path is the shortest (rational efficiency criterion)",
+        "arity": 4,
+        "log_probability": 0.0
+      },
+      {
+        "name": "project_trajectory",
+        "type": "grid \u2192 color \u2192 int \u2192 grid",
+        "system": "AGENTS",
+        "description": "Project agent trajectory in given direction until obstacle",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "transport_object",
+        "type": "grid \u2192 color \u2192 color \u2192 color \u2192 grid",
+        "system": "AGENTS",
+        "description": "Transport cargo object toward goal (AGENTS+OBJECTS cross-system)",
+        "arity": 4,
+        "log_probability": 0.0
+      },
+      {
+        "name": "dir_up",
+        "type": "int",
+        "system": "AGENTS",
+        "description": "Direction: up",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "dir_down",
+        "type": "int",
+        "system": "AGENTS",
+        "description": "Direction: down",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "dir_left",
+        "type": "int",
+        "system": "AGENTS",
+        "description": "Direction: left",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "dir_right",
+        "type": "int",
+        "system": "AGENTS",
+        "description": "Direction: right",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "extract_quadrant",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "PLACES",
+        "description": "Extract quadrant (0=TL, 1=TR, 2=BL, 3=BR)",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "get_center",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Extract center region excluding 1-cell border",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "get_border",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Extract 1-cell-wide border frame",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "get_row",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "PLACES",
+        "description": "Extract a single row as a 1\u00d7W grid",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "get_col",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "PLACES",
+        "description": "Extract a single column as an H\u00d71 grid",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "distance_from_edge",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Distance from nearest edge (mod 10) \u2014 geometric reorientation cue",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "distance_from_center",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Manhattan distance from grid center (mod 10)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "distance_from_color",
+        "type": "grid \u2192 color \u2192 grid",
+        "system": "PLACES",
+        "description": "Distance from nearest cell of given color (mod 10) \u2014 landmark positioning",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "segment_by_axes",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Segment grid into 4 quadrants by central axes (labels 1-4)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "reflect_across_h",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Reflect content across horizontal midline",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "reflect_across_v",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Reflect content across vertical midline",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "reorient",
+        "type": "grid \u2192 grid",
+        "system": "PLACES",
+        "description": "Canonical reorientation: densest quadrant to top-left",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "quad_tl",
+        "type": "int",
+        "system": "PLACES",
+        "description": "Quadrant: top-left",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "quad_tr",
+        "type": "int",
+        "system": "PLACES",
+        "description": "Quadrant: top-right",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "quad_bl",
+        "type": "int",
+        "system": "PLACES",
+        "description": "Quadrant: bottom-left",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "quad_br",
+        "type": "int",
+        "system": "PLACES",
+        "description": "Quadrant: bottom-right",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "place_in_quadrant_8x8",
+        "type": "grid \u2192 int \u2192 grid",
+        "system": "PLACES",
+        "description": "FORMS+OBJECTS+PLACES bridge: place obj_grid into quadrant of 8\u00d78 canvas",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "map",
+        "type": "('a \u2192 'b) \u2192 list['a] \u2192 list['b]",
+        "system": "GLUE",
+        "description": "Map function over list",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "filter",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Filter list by predicate",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "fold",
+        "type": "('a \u2192 'b \u2192 'a) \u2192 'a \u2192 list['b] \u2192 'a",
+        "system": "GLUE",
+        "description": "Left fold",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "if",
+        "type": "bool \u2192 'a \u2192 'a \u2192 'a",
+        "system": "GLUE",
+        "description": "Conditional",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "compose",
+        "type": "('b \u2192 'c) \u2192 ('a \u2192 'b) \u2192 'a \u2192 'c",
+        "system": "GLUE",
+        "description": "Function composition",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "identity",
+        "type": "'a \u2192 'a",
+        "system": "GLUE",
+        "description": "Identity function",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "const",
+        "type": "'a \u2192 'b \u2192 'a",
+        "system": "GLUE",
+        "description": "Constant function",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "pair",
+        "type": "'a \u2192 'b \u2192 ('a, 'b)",
+        "system": "GLUE",
+        "description": "Construct pair",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "fst",
+        "type": "('a, 'b) \u2192 'a",
+        "system": "GLUE",
+        "description": "First of pair",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "snd",
+        "type": "('a, 'b) \u2192 'b",
+        "system": "GLUE",
+        "description": "Second of pair",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "cons",
+        "type": "'a \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Prepend to list",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "head",
+        "type": "list['a] \u2192 'a",
+        "system": "GLUE",
+        "description": "First element",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "tail",
+        "type": "list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "All but first",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "empty",
+        "type": "list['a] \u2192 bool",
+        "system": "GLUE",
+        "description": "Is list empty?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "singleton",
+        "type": "'a \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Wrap in list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "concat",
+        "type": "list['a] \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Concatenate lists",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "reverse",
+        "type": "list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Reverse list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "flatten",
+        "type": "list[list['a]] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Flatten nested list",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "take",
+        "type": "int \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Take first n",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "drop",
+        "type": "int \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "Drop first n",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "any",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 bool",
+        "system": "GLUE",
+        "description": "Any element satisfies?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "all",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 bool",
+        "system": "GLUE",
+        "description": "All elements satisfy?",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "find",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 'a",
+        "system": "GLUE",
+        "description": "Find first matching element",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "not",
+        "type": "bool \u2192 bool",
+        "system": "NSM",
+        "description": "NSM: NOT",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "and",
+        "type": "bool \u2192 bool \u2192 bool",
+        "system": "NSM",
+        "description": "Logical AND",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "or",
+        "type": "bool \u2192 bool \u2192 bool",
+        "system": "NSM",
+        "description": "Logical OR",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "true",
+        "type": "bool",
+        "system": "NSM",
+        "description": "NSM: TRUE",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "false",
+        "type": "bool",
+        "system": "NSM",
+        "description": "NSM: FALSE",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "same",
+        "type": "'a \u2192 'a \u2192 bool",
+        "system": "NSM",
+        "description": "NSM: THE SAME \u2014 deep equality",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "other",
+        "type": "list['a] \u2192 'a \u2192 list['a]",
+        "system": "NSM",
+        "description": "NSM: OTHER \u2014 all except excluded",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "analogy_transfer",
+        "type": "grid \u2192 grid \u2192 grid \u2192 grid",
+        "system": "ANALOGY",
+        "description": "Gentner-style analogical transfer: learn transformation from input\u2192output, apply to new_input",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "align_grids",
+        "type": "grid \u2192 grid \u2192 mapping",
+        "system": "ANALOGY",
+        "description": "Structural alignment between two grids",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "grid_to_graph",
+        "type": "grid \u2192 mapping",
+        "system": "ANALOGY",
+        "description": "Convert grid to object graph representation",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "abs_0_0",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_0",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_1",
+        "type": "grid \u2192 object",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_1",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_2",
+        "type": "grid \u2192 int",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_2",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_3",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_3",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_4",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_4",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_5",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_5",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_6",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_6",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_7",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_7",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_8",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_8",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_9",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_9",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_10",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_10",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_11",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_11",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_12",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_12",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_13",
+        "type": "int \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_13",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_0_14",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_0_14",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_0",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_0",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_1",
+        "type": "int \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_1",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_2",
+        "type": "int \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_2",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_3",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_3",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_4",
+        "type": "color \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_4",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_5",
+        "type": "grid \u2192 color",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_5",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_6",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_6",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_7",
+        "type": "grid \u2192 int",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_7",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_8",
+        "type": "grid \u2192 int",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_8",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_9",
+        "type": "color \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_9",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_10",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_10",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_11",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_11",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_12",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_12",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_13",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_13",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_1_14",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_1_14",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_2_0",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_2_0",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_2_1",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_2_1",
+        "arity": 1,
+        "log_probability": -2.0
+      },
+      {
+        "name": "abs_2_2",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "Learned abstraction: abs_2_2",
+        "arity": 1,
+        "log_probability": -2.0
+      }
+    ],
+    "fingerprint": "90a776894efacd35"
+  },
+  "abstractions": [
+    {
+      "name": "abs_0_0",
+      "type": "grid",
+      "systems_composed": [
+        "OBJECTS"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 400,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 2393,
+      "source_count": 400
+    },
+    {
+      "name": "abs_0_1",
+      "type": "object",
+      "systems_composed": [
+        "OBJECTS"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 500,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1995,
+      "source_count": 500
+    },
+    {
+      "name": "abs_0_2",
+      "type": "int",
+      "systems_composed": [
+        "OBJECTS"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 400,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1595,
+      "source_count": 400
+    },
+    {
+      "name": "abs_0_3",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1484,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_4",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1484,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_5",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1484,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_6",
+      "type": "grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1385,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_7",
+      "type": "grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1385,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_8",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1385,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_9",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "OBJECTS",
+        "PLACES"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 1088,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_10",
+      "type": "grid",
+      "systems_composed": [
+        "OBJECTS",
+        "PLACES"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 989,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_11",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 890,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_12",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 890,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_13",
+      "type": "int \u2192 grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 791,
+      "source_count": 100
+    },
+    {
+      "name": "abs_0_14",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 0,
+      "documentation": "",
+      "mdl_savings": 791,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_0",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 791,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_1",
+      "type": "int \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 791,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_2",
+      "type": "int \u2192 grid",
+      "systems_composed": [
+        "OBJECTS",
+        "PLACES"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 791,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_3",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "AGENTS",
+        "NUMBER"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 692,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_4",
+      "type": "color \u2192 grid",
+      "systems_composed": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 593,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_5",
+      "type": "color",
+      "systems_composed": [
+        "OBJECTS"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 593,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_6",
+      "type": "grid",
+      "systems_composed": [
+        "AGENTS",
+        "NUMBER"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 593,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_7",
+      "type": "grid \u2192 int",
+      "systems_composed": [
+        "NUMBER"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 494,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_8",
+      "type": "int",
+      "systems_composed": [
+        "NUMBER"
+      ],
+      "is_cross_system": false,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 395,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_9",
+      "type": "color \u2192 grid",
+      "systems_composed": [
+        "AGENTS",
+        "NUMBER"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 100,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 395,
+      "source_count": 100
+    },
+    {
+      "name": "abs_1_10",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 25,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 119,
+      "source_count": 25
+    },
+    {
+      "name": "abs_1_11",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 25,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 119,
+      "source_count": 25
+    },
+    {
+      "name": "abs_1_12",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 21,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 99,
+      "source_count": 21
+    },
+    {
+      "name": "abs_1_13",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 25,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 95,
+      "source_count": 25
+    },
+    {
+      "name": "abs_1_14",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 25,
+      "invention_cycle": 1,
+      "documentation": "",
+      "mdl_savings": 95,
+      "source_count": 25
+    },
+    {
+      "name": "abs_2_0",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 21,
+      "invention_cycle": 2,
+      "documentation": "",
+      "mdl_savings": 79,
+      "source_count": 21
+    },
+    {
+      "name": "abs_2_1",
+      "type": "grid \u2192 grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 4,
+      "invention_cycle": 2,
+      "documentation": "",
+      "mdl_savings": 14,
+      "source_count": 4
+    },
+    {
+      "name": "abs_2_2",
+      "type": "grid",
+      "systems_composed": [
+        "FORMS",
+        "GLUE",
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "is_cross_system": true,
+      "reuse_count": 4,
+      "invention_cycle": 2,
+      "documentation": "",
+      "mdl_savings": 11,
+      "source_count": 4
+    }
+  ],
+  "history": [
+    {
+      "cycle": 0,
+      "base_size": 191,
+      "invented_size": 15,
+      "total_size": 206,
+      "abstractions": [
+        {
+          "name": "abs_0_0",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 2393,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_1",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 500,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1995,
+          "source_count": 500
+        },
+        {
+          "name": "abs_0_2",
+          "type": "int",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1595,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_4",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_5",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_6",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_7",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_8",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_9",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1088,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_10",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 989,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_13",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        }
+      ],
+      "cross_system_count": 12
+    },
+    {
+      "cycle": 1,
+      "base_size": 206,
+      "invented_size": 30,
+      "total_size": 236,
+      "abstractions": [
+        {
+          "name": "abs_0_0",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 2393,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_1",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 500,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1995,
+          "source_count": 500
+        },
+        {
+          "name": "abs_0_2",
+          "type": "int",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1595,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_4",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_5",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_6",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_7",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_8",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_9",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1088,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_10",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 989,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_13",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_0",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_1",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_2",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 692,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_4",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_5",
+          "type": "color",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_6",
+          "type": "grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_7",
+          "type": "grid \u2192 int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 494,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_8",
+          "type": "int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_9",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_10",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 21,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 99,
+          "source_count": 21
+        },
+        {
+          "name": "abs_1_13",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        }
+      ],
+      "cross_system_count": 24
+    },
+    {
+      "cycle": 2,
+      "base_size": 209,
+      "invented_size": 33,
+      "total_size": 242,
+      "abstractions": [
+        {
+          "name": "abs_0_0",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 2393,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_1",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 500,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1995,
+          "source_count": 500
+        },
+        {
+          "name": "abs_0_2",
+          "type": "int",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1595,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_4",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_5",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_6",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_7",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_8",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_9",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1088,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_10",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 989,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_13",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_0",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_1",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_2",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 692,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_4",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_5",
+          "type": "color",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_6",
+          "type": "grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_7",
+          "type": "grid \u2192 int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 494,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_8",
+          "type": "int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_9",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_10",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 21,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 99,
+          "source_count": 21
+        },
+        {
+          "name": "abs_1_13",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        },
+        {
+          "name": "abs_2_0",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 21,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 79,
+          "source_count": 21
+        },
+        {
+          "name": "abs_2_1",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 4,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 14,
+          "source_count": 4
+        },
+        {
+          "name": "abs_2_2",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 4,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 11,
+          "source_count": 4
+        }
+      ],
+      "cross_system_count": 27
+    },
+    {
+      "cycle": 3,
+      "base_size": 209,
+      "invented_size": 33,
+      "total_size": 242,
+      "abstractions": [
+        {
+          "name": "abs_0_0",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 2393,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_1",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 500,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1995,
+          "source_count": 500
+        },
+        {
+          "name": "abs_0_2",
+          "type": "int",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 400,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1595,
+          "source_count": 400
+        },
+        {
+          "name": "abs_0_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_4",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_5",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1484,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_6",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_7",
+          "type": "grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_8",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1385,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_9",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 1088,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_10",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 989,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 890,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_13",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_0_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_0",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_1",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_2",
+          "type": "int \u2192 grid",
+          "systems_composed": [
+            "OBJECTS",
+            "PLACES"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 791,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 692,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_4",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_5",
+          "type": "color",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_6",
+          "type": "grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 593,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_7",
+          "type": "grid \u2192 int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 494,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_8",
+          "type": "int",
+          "systems_composed": [
+            "NUMBER"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_9",
+          "type": "color \u2192 grid",
+          "systems_composed": [
+            "AGENTS",
+            "NUMBER"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 100,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 395,
+          "source_count": 100
+        },
+        {
+          "name": "abs_1_10",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_11",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 119,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_12",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 21,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 99,
+          "source_count": 21
+        },
+        {
+          "name": "abs_1_13",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        },
+        {
+          "name": "abs_1_14",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 25,
+          "invention_cycle": 1,
+          "documentation": "",
+          "mdl_savings": 95,
+          "source_count": 25
+        },
+        {
+          "name": "abs_2_0",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 21,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 79,
+          "source_count": 21
+        },
+        {
+          "name": "abs_2_1",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 4,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 14,
+          "source_count": 4
+        },
+        {
+          "name": "abs_2_2",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS",
+            "GLUE",
+            "NUMBER",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 4,
+          "invention_cycle": 2,
+          "documentation": "",
+          "mdl_savings": 11,
+          "source_count": 4
+        }
+      ],
+      "cross_system_count": 27
+    }
+  ]
+}

@@ -1,0 +1,2012 @@
+{
+  "synth_synth_flip_h_0": {
+    "source_code": "(\u03bbinput. (flip_h (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_0",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_flip_h_1": {
+    "source_code": "(\u03bbinput. (flip_h (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_1",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_flip_h_2": {
+    "source_code": "(\u03bbinput. (flip_h (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_h_2",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_flip_v_0": {
+    "source_code": "(\u03bbinput. (flip_v (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_0",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_flip_v_1": {
+    "source_code": "(\u03bbinput. (flip_v (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_1",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_flip_v_2": {
+    "source_code": "(\u03bbinput. (flip_v (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_flip_v_2",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "synth_synth_rotate180_0": {
+    "source_code": "(\u03bbinput. (rotate180 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_0",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "synth_synth_rotate180_1": {
+    "source_code": "(\u03bbinput. (rotate180 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_1",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "synth_synth_rotate180_2": {
+    "source_code": "(\u03bbinput. (rotate180 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate180_2",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "synth_synth_rotate270_0": {
+    "source_code": "(\u03bbinput. (rotate270 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_0",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate270"
+    ]
+  },
+  "synth_synth_rotate270_1": {
+    "source_code": "(\u03bbinput. (rotate270 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_1",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate270"
+    ]
+  },
+  "synth_synth_rotate270_2": {
+    "source_code": "(\u03bbinput. (rotate270 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate270_2",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate270"
+    ]
+  },
+  "synth_synth_rotate90_0": {
+    "source_code": "(\u03bbinput. (rotate90 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_0",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "synth_synth_rotate90_1": {
+    "source_code": "(\u03bbinput. (rotate90 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_1",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "synth_synth_rotate90_2": {
+    "source_code": "(\u03bbinput. (rotate90 (render_object (obj_largest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "synth_synth_rotate90_2",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "no_synth_count_render_00": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_00",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_01": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_01",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_02": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_02",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_03": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_03",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_04": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_04",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_05": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_05",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_06": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_06",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_07": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_07",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_08": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_08",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_09": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_09",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_10": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_10",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_11": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_11",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_12": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_12",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_13": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_13",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_14": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_14",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_15": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_15",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_16": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_16",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_17": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_17",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_18": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_18",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_19": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_19",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_20": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_20",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_21": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_21",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_22": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_22",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_23": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_23",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_24": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_24",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_25": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_25",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_26": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_26",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_27": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_27",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_28": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_28",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "no_synth_count_render_29": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_objects (extract_objects input))) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "no_synth_count_render_29",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_02": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_02",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_06": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_06",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_10": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_10",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_14": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_14",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_18": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_18",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_22": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_22",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_h_q2_26": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 2))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_h_q2_26",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_03": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_v (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_03",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_07": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_v (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_07",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_11": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_v (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_11",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_15": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_15",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_19": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_h (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_19",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_h",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_23": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_v (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_23",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_flip_v_q3_27": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (flip_v (render_object (obj_largest (extract_objects input))))) 3))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_flip_v_q3_27",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "flip_v",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_01": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_01",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_05": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_05",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_09": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_09",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_13": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_13",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_17": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_17",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_21": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_21",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_25": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_25",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate180_q1_29": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate180 (render_object (obj_largest (extract_objects input))))) 1))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate180_q1_29",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_00": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_00",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_04": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_04",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_08": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_08",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_12": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_12",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_16": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_16",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_20": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_20",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_24": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_24",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "fop_synth_fop_rotate90_q0_28": {
+    "source_code": "(\u03bbinput. ((place_in_quadrant_8x8 (rotate90 (render_object (obj_largest (extract_objects input))))) 0))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "fop_synth_fop_rotate90_q0_28",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "place_in_quadrant_8x8",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "nor_synth_tile_n_00": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_00",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_01": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_01",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_02": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_02",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_03": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_03",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_04": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_04",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_05": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_05",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_06": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_06",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_07": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_07",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_08": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_08",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_09": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_09",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_10": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_10",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_11": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_11",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_12": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_12",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_13": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_13",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_14": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_14",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_15": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_15",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_16": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_16",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_17": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_17",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_18": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_18",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_19": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_19",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_20": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_20",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_21": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_21",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_22": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_22",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_23": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_23",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_24": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_24",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_25": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_25",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_26": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_26",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_27": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_27",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_28": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_28",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "nor_synth_tile_n_29": {
+    "source_code": "(\u03bbinput. ((tile_n (render_object (obj_largest (extract_objects input)))) (count_objects (extract_objects input))))",
+    "description_length": 16,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "nor_synth_tile_n_29",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "obj_largest",
+      "render_object",
+      "tile_n"
+    ]
+  },
+  "cells_synth_count_cells_00": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_00",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_01": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_01",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_02": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_02",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_03": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_03",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_04": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_04",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_05": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_05",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_06": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_06",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_07": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_07",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_08": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_08",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_09": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_09",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_10": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_10",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_11": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_11",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_12": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_12",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_13": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_13",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_14": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_14",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_15": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_15",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_16": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_16",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_17": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_17",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_18": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_18",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_19": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_19",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_20": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_20",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_21": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_21",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_22": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_22",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_23": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_23",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_24": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_24",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_25": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_25",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_26": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_26",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_27": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_27",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_28": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_28",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  },
+  "cells_synth_count_cells_29": {
+    "source_code": "(\u03bbinput. ((render_count_colored (count_cells input)) (obj_color (obj_largest (extract_objects input)))))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "cells_synth_count_cells_29",
+    "source": "ast_solver",
+    "primitives": [
+      "count_cells",
+      "extract_objects",
+      "obj_color",
+      "obj_largest",
+      "render_count_colored"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-06-02 10:38:01",
+  "tasks_total": 30,
+  "tasks_solved": 30,
+  "spelke": {
+    "cycle_0": {
+      "synthetic_solved": 30,
+      "abstractions": 9,
+      "cross_system_abstractions": 4,
+      "persons_cross_system_abstractions": 4,
+      "abstraction_details": [
+        {
+          "name": "abs_0_0",
+          "body": "(\u03bbinput. (((point_toward (nearest_agent input)) ((nearest_target input) (nearest_agent input))) input))",
+          "systems": [
+            "PERSONS"
+          ],
+          "is_cross_system": false,
+          "savings": 209
+        },
+        {
+          "name": "abs_0_1",
+          "body": "(((point_toward (nearest_agent input)) ((nearest_target input) (nearest_agent input))) input)",
+          "systems": [
+            "PERSONS"
+          ],
+          "is_cross_system": false,
+          "savings": 195
+        },
+        {
+          "name": "abs_0_2",
+          "body": "((point_toward (nearest_agent input)) ((nearest_target input) (nearest_agent input)))",
+          "systems": [
+            "PERSONS"
+          ],
+          "is_cross_system": false,
+          "savings": 167
+        },
+        {
+          "name": "abs_0_3",
+          "body": "(\u03bbinput. ((render_count_colored (agent_count input)) (obj_color (nearest_agent input))))",
+          "systems": [
+            "NUMBER",
+            "OBJECTS",
+            "PERSONS"
+          ],
+          "is_cross_system": true,
+          "savings": 153
+        },
+        {
+          "name": "abs_0_4",
+          "body": "((render_count_colored (agent_count input)) (obj_color (nearest_agent input)))",
+          "systems": [
+            "NUMBER",
+            "OBJECTS",
+            "PERSONS"
+          ],
+          "is_cross_system": true,
+          "savings": 139
+        },
+        {
+          "name": "abs_0_5",
+          "body": "((nearest_target input) (nearest_agent input))",
+          "systems": [
+            "PERSONS"
+          ],
+          "is_cross_system": false,
+          "savings": 83
+        },
+        {
+          "name": "abs_0_6",
+          "body": "(point_toward (nearest_agent input))",
+          "systems": [
+            "PERSONS"
+          ],
+          "is_cross_system": false,
+          "savings": 55
+        },
+        {
+          "name": "abs_0_7",
+          "body": "(render_count_colored (agent_count input))",
+          "systems": [
+            "NUMBER",
+            "PERSONS"
+          ],
+          "is_cross_system": true,
+          "savings": 55
+        },
+        {
+          "name": "abs_0_8",
+          "body": "(obj_color (nearest_agent input))",
+          "systems": [
+            "OBJECTS",
+            "PERSONS"
+          ],
+          "is_cross_system": true,
+          "savings": 55
+        }
+      ]
+    }
+  }
+}

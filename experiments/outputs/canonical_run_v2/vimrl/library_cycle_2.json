@@ -1,0 +1,400 @@
+{
+  "cycle": 3,
+  "base_registry": {
+    "total_primitives": 45,
+    "cardinality_by_system": {
+      "OBJECTS": 35,
+      "GLUE": 10
+    },
+    "primitives": [
+      {
+        "name": "v_extract_objects",
+        "type": "grid \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "extract 4-connected objects",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_background_color",
+        "type": "grid \u2192 color",
+        "system": "OBJECTS",
+        "description": "most frequent color (background)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_grid_width",
+        "type": "grid \u2192 int",
+        "system": "OBJECTS",
+        "description": "grid width",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_grid_height",
+        "type": "grid \u2192 int",
+        "system": "OBJECTS",
+        "description": "grid height",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_obj_color",
+        "type": "object \u2192 color",
+        "system": "OBJECTS",
+        "description": "object color",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_obj_size",
+        "type": "object \u2192 int",
+        "system": "OBJECTS",
+        "description": "object pixel count",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_obj_position",
+        "type": "object \u2192 point",
+        "system": "OBJECTS",
+        "description": "object top-left position",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_largest",
+        "type": "list[object] \u2192 object",
+        "system": "OBJECTS",
+        "description": "largest object by pixel count",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_smallest",
+        "type": "list[object] \u2192 object",
+        "system": "OBJECTS",
+        "description": "smallest object by pixel count",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_sort_by_size",
+        "type": "list[object] \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "sort objects by size descending",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_filter_color",
+        "type": "color \u2192 list[object] \u2192 list[object]",
+        "system": "OBJECTS",
+        "description": "filter objects by color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_adjacent",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "objects share a border cell",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_above",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "object 1 is above object 2",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_same_color",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "objects have same color",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_same_size",
+        "type": "object \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "objects have same size",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_touching_border",
+        "type": "grid \u2192 object \u2192 bool",
+        "system": "OBJECTS",
+        "description": "object touches grid border",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_paint_object",
+        "type": "grid \u2192 object \u2192 color \u2192 grid",
+        "system": "OBJECTS",
+        "description": "recolor all cells of an object",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_move_object",
+        "type": "grid \u2192 object \u2192 int \u2192 int \u2192 grid",
+        "system": "OBJECTS",
+        "description": "translate object by (dr, dc)",
+        "arity": 4,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_fill_bbox",
+        "type": "grid \u2192 object \u2192 color \u2192 grid",
+        "system": "OBJECTS",
+        "description": "fill bounding box of object with color",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_copy_to",
+        "type": "grid \u2192 object \u2192 int \u2192 int \u2192 grid",
+        "system": "OBJECTS",
+        "description": "copy object to target position",
+        "arity": 4,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_empty_grid",
+        "type": "int \u2192 int \u2192 grid",
+        "system": "OBJECTS",
+        "description": "create blank grid of given size",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_0",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: black",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_1",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: blue",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_2",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: red",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_3",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: green",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_4",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: yellow",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_5",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: grey",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_6",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: fuschia",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_7",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: orange",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_8",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: teal",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_color_9",
+        "type": "color",
+        "system": "OBJECTS",
+        "description": "color: maroon",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_int_0",
+        "type": "int",
+        "system": "OBJECTS",
+        "description": "0",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_int_1",
+        "type": "int",
+        "system": "OBJECTS",
+        "description": "1",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_int_neg1",
+        "type": "int",
+        "system": "OBJECTS",
+        "description": "-1",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_int_2",
+        "type": "int",
+        "system": "OBJECTS",
+        "description": "2",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_compose",
+        "type": "('b \u2192 'b) \u2192 ('a \u2192 'b) \u2192 'a \u2192 'b",
+        "system": "GLUE",
+        "description": "function composition",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_identity",
+        "type": "'a \u2192 'a",
+        "system": "GLUE",
+        "description": "identity",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_map",
+        "type": "('a \u2192 'b) \u2192 list['a] \u2192 list['b]",
+        "system": "GLUE",
+        "description": "map",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_filter",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "filter",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_first",
+        "type": "list['a] \u2192 'a",
+        "system": "GLUE",
+        "description": "first element",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_last",
+        "type": "list['a] \u2192 'a",
+        "system": "GLUE",
+        "description": "last element",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_length",
+        "type": "list['a] \u2192 int",
+        "system": "GLUE",
+        "description": "list length",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_if",
+        "type": "bool \u2192 'a \u2192 'a \u2192 'a",
+        "system": "GLUE",
+        "description": "if-then-else",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_eq",
+        "type": "'a \u2192 'a \u2192 bool",
+        "system": "GLUE",
+        "description": "equality",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "v_gt",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "GLUE",
+        "description": "greater than",
+        "arity": 2,
+        "log_probability": 0.0
+      }
+    ],
+    "fingerprint": "9dd5e6edf33ae25e"
+  },
+  "abstractions": [],
+  "history": [
+    {
+      "cycle": 0,
+      "base_size": 45,
+      "invented_size": 0,
+      "total_size": 45,
+      "abstractions": [],
+      "cross_system_count": 0
+    },
+    {
+      "cycle": 1,
+      "base_size": 45,
+      "invented_size": 0,
+      "total_size": 45,
+      "abstractions": [],
+      "cross_system_count": 0
+    },
+    {
+      "cycle": 2,
+      "base_size": 45,
+      "invented_size": 0,
+      "total_size": 45,
+      "abstractions": [],
+      "cross_system_count": 0
+    }
+  ]
+}

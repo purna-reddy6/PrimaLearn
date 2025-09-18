@@ -1,0 +1,1079 @@
+{
+  "cycle": 2,
+  "base_registry": {
+    "total_primitives": 131,
+    "cardinality_by_system": {
+      "GLUE": 131
+    },
+    "primitives": [
+      {
+        "name": "g_map",
+        "type": "('a \u2192 'b) \u2192 list['a] \u2192 list['b]",
+        "system": "GLUE",
+        "description": "map",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_filter",
+        "type": "('a \u2192 bool) \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "filter",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_fold",
+        "type": "('a \u2192 'b \u2192 'a) \u2192 'a \u2192 list['b] \u2192 'a",
+        "system": "GLUE",
+        "description": "fold",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_cons",
+        "type": "'a \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "cons",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_head",
+        "type": "list['a] \u2192 'a",
+        "system": "GLUE",
+        "description": "head",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_tail",
+        "type": "list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "tail",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_length",
+        "type": "list['a] \u2192 int",
+        "system": "GLUE",
+        "description": "length",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_concat",
+        "type": "list['a] \u2192 list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "concat",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_reverse",
+        "type": "list['a] \u2192 list['a]",
+        "system": "GLUE",
+        "description": "reverse",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_empty",
+        "type": "list['a] \u2192 bool",
+        "system": "GLUE",
+        "description": "empty?",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_add",
+        "type": "int \u2192 int \u2192 int",
+        "system": "GLUE",
+        "description": "add",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_sub",
+        "type": "int \u2192 int \u2192 int",
+        "system": "GLUE",
+        "description": "sub",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_mul",
+        "type": "int \u2192 int \u2192 int",
+        "system": "GLUE",
+        "description": "mul",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_div",
+        "type": "int \u2192 int \u2192 int",
+        "system": "GLUE",
+        "description": "div",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_mod",
+        "type": "int \u2192 int \u2192 int",
+        "system": "GLUE",
+        "description": "mod",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_eq",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "GLUE",
+        "description": "eq",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_gt",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "GLUE",
+        "description": "gt",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_lt",
+        "type": "int \u2192 int \u2192 bool",
+        "system": "GLUE",
+        "description": "lt",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_not",
+        "type": "bool \u2192 bool",
+        "system": "GLUE",
+        "description": "not",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_and",
+        "type": "bool \u2192 bool \u2192 bool",
+        "system": "GLUE",
+        "description": "and",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_or",
+        "type": "bool \u2192 bool \u2192 bool",
+        "system": "GLUE",
+        "description": "or",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_if",
+        "type": "bool \u2192 'a \u2192 'a \u2192 'a",
+        "system": "GLUE",
+        "description": "if",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_compose",
+        "type": "('b \u2192 'a) \u2192 ('a \u2192 'b) \u2192 'a \u2192 'a",
+        "system": "GLUE",
+        "description": "compose",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_identity",
+        "type": "'a \u2192 'a",
+        "system": "GLUE",
+        "description": "identity",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_const",
+        "type": "'a \u2192 'b \u2192 'a",
+        "system": "GLUE",
+        "description": "const",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_pair",
+        "type": "'a \u2192 'b \u2192 ('a, 'b)",
+        "system": "GLUE",
+        "description": "pair",
+        "arity": 2,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_fst",
+        "type": "('a, 'b) \u2192 'a",
+        "system": "GLUE",
+        "description": "fst",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_snd",
+        "type": "('a, 'b) \u2192 'b",
+        "system": "GLUE",
+        "description": "snd",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_get_cell",
+        "type": "grid \u2192 int \u2192 int \u2192 color",
+        "system": "GLUE",
+        "description": "get cell",
+        "arity": 3,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_set_cell",
+        "type": "grid \u2192 int \u2192 int \u2192 color \u2192 grid",
+        "system": "GLUE",
+        "description": "set cell",
+        "arity": 4,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_height",
+        "type": "grid \u2192 int",
+        "system": "GLUE",
+        "description": "height",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_width",
+        "type": "grid \u2192 int",
+        "system": "GLUE",
+        "description": "width",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rotate",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate90",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_flip",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "flip",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_transpose",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "transpose",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_0",
+        "type": "int",
+        "system": "GLUE",
+        "description": "0",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_1",
+        "type": "int",
+        "system": "GLUE",
+        "description": "1",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_2",
+        "type": "int",
+        "system": "GLUE",
+        "description": "2",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_3",
+        "type": "int",
+        "system": "GLUE",
+        "description": "3",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_4",
+        "type": "int",
+        "system": "GLUE",
+        "description": "4",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_5",
+        "type": "int",
+        "system": "GLUE",
+        "description": "5",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_6",
+        "type": "int",
+        "system": "GLUE",
+        "description": "6",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_7",
+        "type": "int",
+        "system": "GLUE",
+        "description": "7",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_8",
+        "type": "int",
+        "system": "GLUE",
+        "description": "8",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_9",
+        "type": "int",
+        "system": "GLUE",
+        "description": "9",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_true",
+        "type": "bool",
+        "system": "GLUE",
+        "description": "true",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_false",
+        "type": "bool",
+        "system": "GLUE",
+        "description": "false",
+        "arity": 0,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot0",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 0",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg0",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 2",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp0",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot1",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 1",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg1",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 3",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp1",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot2",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 2",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg2",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 4",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp2",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot3",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 3",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg3",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 5",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp3",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(3,8)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot4",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 4",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg4",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 6",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp4",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(4,9)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot5",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 5",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg5",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 7",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp5",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot6",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 6",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg6",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 8",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp6",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot7",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 7",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg7",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 9",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp7",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot8",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 8",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg8",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 10",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp8",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(3,8)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot9",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 9",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg9",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 11",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp9",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(4,9)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot10",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 10",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg10",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 12",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp10",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot11",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 11",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg11",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 13",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp11",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot12",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 12",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg12",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 14",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp12",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot13",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 13",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg13",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 15",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp13",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(3,8)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot14",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 14",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg14",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 16",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp14",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(4,9)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot15",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 15",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg15",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 17",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp15",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot16",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 16",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg16",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 18",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp16",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot17",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 17",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg17",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 19",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp17",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot18",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 18",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg18",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 20",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp18",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(3,8)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot19",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 19",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg19",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 21",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp19",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(4,9)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot20",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 20",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg20",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 22",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp20",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot21",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 21",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg21",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 23",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp21",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot22",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 22",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg22",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 24",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp22",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot23",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 23",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg23",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 25",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp23",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(3,8)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot24",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 24",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg24",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 26",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp24",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(4,9)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot25",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 25",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg25",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 27",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp25",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(0,5)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot26",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 26",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg26",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 28",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp26",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(1,6)",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_rot27",
+        "type": "grid \u2192 grid",
+        "system": "GLUE",
+        "description": "rotate variant 27",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_neg27",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "multiply by 29",
+        "arity": 1,
+        "log_probability": 0.0
+      },
+      {
+        "name": "g_clamp27",
+        "type": "int \u2192 int",
+        "system": "GLUE",
+        "description": "clamp(2,7)",
+        "arity": 1,
+        "log_probability": 0.0
+      }
+    ],
+    "fingerprint": "cc56f9dde2f6dc89"
+  },
+  "abstractions": [],
+  "history": [
+    {
+      "cycle": 0,
+      "base_size": 131,
+      "invented_size": 0,
+      "total_size": 131,
+      "abstractions": [],
+      "cross_system_count": 0
+    },
+    {
+      "cycle": 1,
+      "base_size": 131,
+      "invented_size": 0,
+      "total_size": 131,
+      "abstractions": [],
+      "cross_system_count": 0
+    }
+  ]
+}

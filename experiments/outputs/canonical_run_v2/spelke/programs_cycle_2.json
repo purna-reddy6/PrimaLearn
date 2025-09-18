@@ -1,0 +1,524 @@
+{
+  "00d62c1b": {
+    "source_code": "(\u03bbinput. ((fill_interior input) 4))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "00d62c1b",
+    "source": "ast_solver",
+    "primitives": [
+      "fill_interior"
+    ]
+  },
+  "08ed6ac7": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "08ed6ac7",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "1cf80156": {
+    "source_code": "(\u03bbinput. (render_objects (extract_objects input)))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1cf80156",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "render_objects"
+    ]
+  },
+  "1e0a9b12": {
+    "source_code": "(\u03bbinput. (gravity_down input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1e0a9b12",
+    "source": "ast_solver",
+    "primitives": [
+      "gravity_down"
+    ]
+  },
+  "1f85a75f": {
+    "source_code": "(\u03bbinput. (render_object (obj_largest (extract_objects input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1f85a75f",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "22eb0ac0": {
+    "source_code": "heuristic:line_extension",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "22eb0ac0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "23b5c85d": {
+    "source_code": "(\u03bbinput. (rotate180 (render_object (obj_smallest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "23b5c85d",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_smallest",
+      "render_object",
+      "rotate180"
+    ]
+  },
+  "25ff71a9": {
+    "source_code": "(analogy_pair_0 input)",
+    "description_length": 3,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "25ff71a9",
+    "source": "enumerator",
+    "primitives": [
+      "analogy_pair_0"
+    ]
+  },
+  "3906de3d": {
+    "source_code": "(\u03bbinput. (gravity_up input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3906de3d",
+    "source": "ast_solver",
+    "primitives": [
+      "gravity_up"
+    ]
+  },
+  "3af2c5a8": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3af2c5a8",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "3c9b0459": {
+    "source_code": "(\u03bbinput. (rotate180 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3c9b0459",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate180"
+    ]
+  },
+  "496994bd": {
+    "source_code": "(\u03bbinput. ((overlay input) (flip_v input)))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "496994bd",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "overlay"
+    ]
+  },
+  "4c4377d9": {
+    "source_code": "(\u03bbinput. ((vstack_grid (flip_v input)) input))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "4c4377d9",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "vstack_grid"
+    ]
+  },
+  "5bd6f4ac": {
+    "source_code": "heuristic:grid_partition",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "5bd6f4ac",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "6150a2bd": {
+    "source_code": "(\u03bbinput. (rotate180 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6150a2bd",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate180"
+    ]
+  },
+  "623ea044": {
+    "source_code": "heuristic:diagonal_fill",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "623ea044",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "62c24649": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "62c24649",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "67a3c6ac": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67a3c6ac",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "67e8384a": {
+    "source_code": "(\u03bbinput. ((vstack_grid ((hstack_grid input) (flip_h input))) ((hstack_grid (flip_v input)) (rotate180 input))))",
+    "description_length": 20,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67e8384a",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h",
+      "flip_v",
+      "hstack_grid",
+      "rotate180",
+      "vstack_grid"
+    ]
+  },
+  "68b16354": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "68b16354",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "6d0aefbc": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6d0aefbc",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "6e82a1ae": {
+    "source_code": "(\u03bbinput. (extract_objects input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6e82a1ae",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects"
+    ]
+  },
+  "6fa7a44f": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6fa7a44f",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "74dd1130": {
+    "source_code": "(\u03bbinput. (transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "74dd1130",
+    "source": "ast_solver",
+    "primitives": [
+      "transpose"
+    ]
+  },
+  "7b7f7511": {
+    "source_code": "(\u03bbinput. (extract_tile input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "7b7f7511",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_tile"
+    ]
+  },
+  "8be77c9e": {
+    "source_code": "(\u03bbinput. (flip_v input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "8be77c9e",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v"
+    ]
+  },
+  "9172f3a0": {
+    "source_code": "(\u03bbinput. ((scale_up input) 3))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9172f3a0",
+    "source": "ast_solver",
+    "primitives": [
+      "scale_up"
+    ]
+  },
+  "9dfd6313": {
+    "source_code": "(\u03bbinput. (transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9dfd6313",
+    "source": "ast_solver",
+    "primitives": [
+      "transpose"
+    ]
+  },
+  "a416b8f3": {
+    "source_code": "(\u03bbinput. (((tile input) 1) 2))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a416b8f3",
+    "source": "ast_solver",
+    "primitives": [
+      "tile"
+    ]
+  },
+  "a5313dff": {
+    "source_code": "(\u03bbinput. ((fill_interior input) 1))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a5313dff",
+    "source": "ast_solver",
+    "primitives": [
+      "fill_interior"
+    ]
+  },
+  "a79310a0": {
+    "source_code": "(analogy_pair_0 input)",
+    "description_length": 3,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a79310a0",
+    "source": "enumerator",
+    "primitives": [
+      "analogy_pair_0"
+    ]
+  },
+  "ac0a08a4": {
+    "source_code": "(\u03bbinput. ((scale_up input) (count_objects (extract_objects input))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ac0a08a4",
+    "source": "ast_solver",
+    "primitives": [
+      "count_objects",
+      "extract_objects",
+      "scale_up"
+    ]
+  },
+  "aedd82e4": {
+    "source_code": "(\u03bbinput. (extract_objects input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "aedd82e4",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects"
+    ]
+  },
+  "b1948b0a": {
+    "source_code": "(\u03bbinput. (((replace_color input) 6) 2))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b1948b0a",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "b6afb2da": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b6afb2da",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "bb43febb": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "bb43febb",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "be94b721": {
+    "source_code": "(\u03bbinput. (render_object (obj_largest (extract_objects input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "be94b721",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_largest",
+      "render_object"
+    ]
+  },
+  "c59eb873": {
+    "source_code": "(\u03bbinput. ((scale_up input) 2))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c59eb873",
+    "source": "ast_solver",
+    "primitives": [
+      "scale_up"
+    ]
+  },
+  "c8f0f002": {
+    "source_code": "(\u03bbinput. (((replace_color input) 7) 5))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c8f0f002",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "c9e6f938": {
+    "source_code": "(\u03bbinput. (flip_h input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c9e6f938",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_h"
+    ]
+  },
+  "d511f180": {
+    "source_code": "(\u03bbinput. (((replace_color (((replace_color input) 8) 5)) 5) 8))",
+    "description_length": 14,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d511f180",
+    "source": "ast_solver",
+    "primitives": [
+      "replace_color"
+    ]
+  },
+  "d9fac9be": {
+    "source_code": "(\u03bbinput. (rotate90 (render_object (obj_smallest (extract_objects input)))))",
+    "description_length": 10,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d9fac9be",
+    "source": "ast_solver",
+    "primitives": [
+      "extract_objects",
+      "obj_smallest",
+      "render_object",
+      "rotate90"
+    ]
+  },
+  "ea32f347": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ea32f347",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "ed36ccf7": {
+    "source_code": "(\u03bbinput. (rotate270 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ed36ccf7",
+    "source": "ast_solver",
+    "primitives": [
+      "rotate270"
+    ]
+  },
+  "f25ffba3": {
+    "source_code": "(\u03bbinput. ((overlay input) (flip_v input)))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "f25ffba3",
+    "source": "ast_solver",
+    "primitives": [
+      "flip_v",
+      "overlay"
+    ]
+  },
+  "b9b7f026": {
+    "source_code": "(\u03bbinput. (abs_0_10 (gravity_right (gravity_down input))))",
+    "description_length": 8,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b9b7f026",
+    "source": "ast_solver",
+    "primitives": [
+      "abs_0_10",
+      "gravity_down",
+      "gravity_right"
+    ]
+  }
+}

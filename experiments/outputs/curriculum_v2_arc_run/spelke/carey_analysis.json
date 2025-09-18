@@ -1,0 +1,254 @@
+{
+  "total_abstractions": 29,
+  "n_cross_system": 11,
+  "cross_system": [
+    {
+      "name": "abs_0_2",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 434
+    },
+    {
+      "name": "abs_0_3",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 434
+    },
+    {
+      "name": "abs_0_4",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 405
+    },
+    {
+      "name": "abs_0_5",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 405
+    },
+    {
+      "name": "abs_0_6",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 376
+    },
+    {
+      "name": "abs_0_8",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 347
+    },
+    {
+      "name": "abs_0_10",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 231
+    },
+    {
+      "name": "abs_0_11",
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "reuse_count": 30,
+      "invention_cycle": 0,
+      "mdl_savings": 173
+    },
+    {
+      "name": "abs_0_12",
+      "systems": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "reuse_count": 15,
+      "invention_cycle": 0,
+      "mdl_savings": 124
+    },
+    {
+      "name": "abs_0_14",
+      "systems": [
+        "FORMS",
+        "OBJECTS",
+        "PLACES"
+      ],
+      "reuse_count": 8,
+      "invention_cycle": 0,
+      "mdl_savings": 90
+    },
+    {
+      "name": "abs_1_7",
+      "systems": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "reuse_count": 2,
+      "invention_cycle": 1,
+      "mdl_savings": 7
+    }
+  ],
+  "by_cycle": {
+    "0": {
+      "count": 15,
+      "cross_system": 10,
+      "names": [
+        "abs_0_0",
+        "abs_0_1",
+        "abs_0_2",
+        "abs_0_3",
+        "abs_0_4",
+        "abs_0_5",
+        "abs_0_6",
+        "abs_0_7",
+        "abs_0_8",
+        "abs_0_9",
+        "abs_0_10",
+        "abs_0_11",
+        "abs_0_12",
+        "abs_0_13",
+        "abs_0_14"
+      ]
+    },
+    "1": {
+      "count": 14,
+      "cross_system": 1,
+      "names": [
+        "abs_1_0",
+        "abs_1_1",
+        "abs_1_2",
+        "abs_1_3",
+        "abs_1_4",
+        "abs_1_5",
+        "abs_1_6",
+        "abs_1_7",
+        "abs_1_8",
+        "abs_1_9",
+        "abs_1_10",
+        "abs_1_11",
+        "abs_1_12",
+        "abs_1_13"
+      ]
+    }
+  },
+  "most_reused": [
+    {
+      "name": "abs_0_0",
+      "reuse_count": 135,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 535
+    },
+    {
+      "name": "abs_0_1",
+      "reuse_count": 75,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 443
+    },
+    {
+      "name": "abs_0_7",
+      "reuse_count": 60,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 353
+    },
+    {
+      "name": "abs_0_9",
+      "reuse_count": 60,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 235
+    },
+    {
+      "name": "abs_0_2",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 434
+    },
+    {
+      "name": "abs_0_3",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 434
+    },
+    {
+      "name": "abs_0_4",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 405
+    },
+    {
+      "name": "abs_0_5",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 405
+    },
+    {
+      "name": "abs_0_6",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 376
+    },
+    {
+      "name": "abs_0_8",
+      "reuse_count": 30,
+      "systems": [
+        "NUMBER",
+        "OBJECTS"
+      ],
+      "mdl_savings": 347
+    }
+  ],
+  "system_pair_counts": {
+    "NUMBER+OBJECTS": 8,
+    "FORMS+OBJECTS": 3,
+    "FORMS+PLACES": 1,
+    "OBJECTS+PLACES": 1
+  }
+}

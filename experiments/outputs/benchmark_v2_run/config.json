@@ -1,0 +1,10 @@
+{
+  "n_tasks": 875,
+  "n_cycles": 5,
+  "enum_cost": 6,
+  "enum_budget": 15.0,
+  "use_enumerator": true,
+  "use_rust_enumerator": true,
+  "use_neural": true,
+  "quick": false
+}

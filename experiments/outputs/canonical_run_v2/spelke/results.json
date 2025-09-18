@@ -1,0 +1,329 @@
+{
+  "solved": 46,
+  "total": 400,
+  "solve_rate": 0.115,
+  "library_size": 171,
+  "cycles": [
+    {
+      "cycle": 0,
+      "n_tasks": 400,
+      "n_solved": 45,
+      "solve_rate": 0.1125,
+      "n_heuristic": 7,
+      "n_ast": 36,
+      "n_enumerated": 2,
+      "new_abstractions": [
+        {
+          "name": "abs_0_0",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 37,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_1",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 35,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_2",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS",
+            "OBJECTS"
+          ],
+          "is_cross_system": true,
+          "reuse_count": 4,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 25,
+          "source_count": 4
+        },
+        {
+          "name": "abs_0_3",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 15,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_4",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 15,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_5",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 11,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_6",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 3,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 7,
+          "source_count": 3
+        },
+        {
+          "name": "abs_0_7",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 6,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_8",
+          "type": "grid \u2192 grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 6,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_9",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 5,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_10",
+          "type": "grid",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 5,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_11",
+          "type": "grid",
+          "systems_composed": [
+            "FORMS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 5,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_12",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 3,
+          "source_count": 2
+        },
+        {
+          "name": "abs_0_13",
+          "type": "object",
+          "systems_composed": [
+            "OBJECTS"
+          ],
+          "is_cross_system": false,
+          "reuse_count": 2,
+          "invention_cycle": 0,
+          "documentation": "",
+          "mdl_savings": 3,
+          "source_count": 2
+        }
+      ],
+      "cross_system_abstractions": 1,
+      "total_library_size": 171,
+      "cycle_time_seconds": 3816.979872226715,
+      "strategies_used": {
+        "fill_interior": 2,
+        "h:relational_recolor": 2,
+        "extract_objects": 8,
+        "render_objects": 1,
+        "gravity_down": 1,
+        "obj_largest": 2,
+        "render_object": 4,
+        "h:line_extension": 1,
+        "rotate180": 6,
+        "obj_smallest": 2,
+        "analogy_pair_0": 2,
+        "gravity_up": 1,
+        "flip_h": 6,
+        "hstack_grid": 3,
+        "flip_v": 9,
+        "vstack_grid": 4,
+        "overlay": 2,
+        "h:grid_partition": 1,
+        "h:diagonal_fill": 1,
+        "transpose": 2,
+        "extract_tile": 1,
+        "scale_up": 3,
+        "tile": 1,
+        "count_objects": 1,
+        "replace_color": 3,
+        "h:color_by_neighbor": 2,
+        "rotate90": 1,
+        "rotate270": 1
+      },
+      "recognition_loss": 0.04631095752120018,
+      "n_abstraction_compounded": 0,
+      "abstraction_compounded_tasks": [],
+      "newly_solved_task_ids": [
+        "00d62c1b",
+        "08ed6ac7",
+        "1cf80156",
+        "1e0a9b12",
+        "1f85a75f",
+        "22eb0ac0",
+        "23b5c85d",
+        "25ff71a9",
+        "3906de3d",
+        "3af2c5a8",
+        "3c9b0459",
+        "496994bd",
+        "4c4377d9",
+        "5bd6f4ac",
+        "6150a2bd",
+        "623ea044",
+        "62c24649",
+        "67a3c6ac",
+        "67e8384a",
+        "68b16354",
+        "6d0aefbc",
+        "6e82a1ae",
+        "6fa7a44f",
+        "74dd1130",
+        "7b7f7511",
+        "8be77c9e",
+        "9172f3a0",
+        "9dfd6313",
+        "a416b8f3",
+        "a5313dff",
+        "a79310a0",
+        "ac0a08a4",
+        "aedd82e4",
+        "b1948b0a",
+        "b6afb2da",
+        "bb43febb",
+        "be94b721",
+        "c59eb873",
+        "c8f0f002",
+        "c9e6f938",
+        "d511f180",
+        "d9fac9be",
+        "ea32f347",
+        "ed36ccf7",
+        "f25ffba3"
+      ]
+    },
+    {
+      "cycle": 1,
+      "n_tasks": 400,
+      "n_solved": 46,
+      "solve_rate": 0.115,
+      "n_heuristic": 7,
+      "n_ast": 37,
+      "n_enumerated": 2,
+      "new_abstractions": [],
+      "cross_system_abstractions": 1,
+      "total_library_size": 171,
+      "cycle_time_seconds": 3229.221074819565,
+      "strategies_used": {
+        "gravity_down": 1,
+        "gravity_right": 1,
+        "abs_0_10": 1
+      },
+      "recognition_loss": 0.02612829953432083,
+      "n_abstraction_compounded": 1,
+      "abstraction_compounded_tasks": [
+        "b9b7f026"
+      ],
+      "newly_solved_task_ids": [
+        "b9b7f026"
+      ]
+    },
+    {
+      "cycle": 2,
+      "n_tasks": 400,
+      "n_solved": 46,
+      "solve_rate": 0.115,
+      "n_heuristic": 7,
+      "n_ast": 37,
+      "n_enumerated": 2,
+      "new_abstractions": [],
+      "cross_system_abstractions": 1,
+      "total_library_size": 171,
+      "cycle_time_seconds": 3295.089502096176,
+      "strategies_used": {},
+      "recognition_loss": 0.019701708108186722,
+      "n_abstraction_compounded": 0,
+      "abstraction_compounded_tasks": [],
+      "newly_solved_task_ids": []
+    }
+  ]
+}

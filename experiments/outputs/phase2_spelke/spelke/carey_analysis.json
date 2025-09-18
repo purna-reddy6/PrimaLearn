@@ -1,0 +1,124 @@
+{
+  "total_abstractions": 14,
+  "n_cross_system": 1,
+  "cross_system": [
+    {
+      "name": "abs_0_2",
+      "systems": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "reuse_count": 4,
+      "invention_cycle": 0,
+      "mdl_savings": 25
+    }
+  ],
+  "by_cycle": {
+    "0": {
+      "count": 14,
+      "cross_system": 1,
+      "names": [
+        "abs_0_0",
+        "abs_0_1",
+        "abs_0_2",
+        "abs_0_3",
+        "abs_0_4",
+        "abs_0_5",
+        "abs_0_6",
+        "abs_0_7",
+        "abs_0_8",
+        "abs_0_9",
+        "abs_0_10",
+        "abs_0_11",
+        "abs_0_12",
+        "abs_0_13"
+      ]
+    }
+  },
+  "most_reused": [
+    {
+      "name": "abs_0_2",
+      "reuse_count": 4,
+      "systems": [
+        "FORMS",
+        "OBJECTS"
+      ],
+      "mdl_savings": 25
+    },
+    {
+      "name": "abs_0_0",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 37
+    },
+    {
+      "name": "abs_0_1",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 35
+    },
+    {
+      "name": "abs_0_3",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 15
+    },
+    {
+      "name": "abs_0_4",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 15
+    },
+    {
+      "name": "abs_0_5",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 11
+    },
+    {
+      "name": "abs_0_6",
+      "reuse_count": 3,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 7
+    },
+    {
+      "name": "abs_0_7",
+      "reuse_count": 2,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 6
+    },
+    {
+      "name": "abs_0_8",
+      "reuse_count": 2,
+      "systems": [
+        "FORMS"
+      ],
+      "mdl_savings": 6
+    },
+    {
+      "name": "abs_0_9",
+      "reuse_count": 2,
+      "systems": [
+        "OBJECTS"
+      ],
+      "mdl_savings": 5
+    }
+  ],
+  "system_pair_counts": {
+    "FORMS+OBJECTS": 1
+  }
+}

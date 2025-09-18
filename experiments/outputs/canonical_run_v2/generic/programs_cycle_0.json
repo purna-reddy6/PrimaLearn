@@ -1,0 +1,395 @@
+{
+  "00d62c1b": {
+    "source_code": "heuristic:flood_fill",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "00d62c1b",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "08ed6ac7": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "08ed6ac7",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "1cf80156": {
+    "source_code": "heuristic:crop_nonzero",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1cf80156",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "1e0a9b12": {
+    "source_code": "heuristic:gravity",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1e0a9b12",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "1f85a75f": {
+    "source_code": "heuristic:object_filter",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "1f85a75f",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "22eb0ac0": {
+    "source_code": "heuristic:line_extension",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "22eb0ac0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "23b5c85d": {
+    "source_code": "heuristic:object_filter",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "23b5c85d",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "25ff71a9": {
+    "source_code": "heuristic:analogy",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "25ff71a9",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "3906de3d": {
+    "source_code": "heuristic:gravity",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3906de3d",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "3af2c5a8": {
+    "source_code": "heuristic:mirror_extend",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3af2c5a8",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "3c9b0459": {
+    "source_code": "(\u03bbinput. (g_rot1 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "3c9b0459",
+    "source": "ast_solver",
+    "primitives": [
+      "g_rot1"
+    ]
+  },
+  "496994bd": {
+    "source_code": "heuristic:symmetry_completion",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "496994bd",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "4c4377d9": {
+    "source_code": "heuristic:mirror_extend",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "4c4377d9",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "5bd6f4ac": {
+    "source_code": "heuristic:grid_partition",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "5bd6f4ac",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "6150a2bd": {
+    "source_code": "(\u03bbinput. (g_rot1 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6150a2bd",
+    "source": "ast_solver",
+    "primitives": [
+      "g_rot1"
+    ]
+  },
+  "623ea044": {
+    "source_code": "heuristic:diagonal_fill",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "623ea044",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "62c24649": {
+    "source_code": "heuristic:mirror_extend",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "62c24649",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "67a3c6ac": {
+    "source_code": "(\u03bbinput. (g_flip input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67a3c6ac",
+    "source": "ast_solver",
+    "primitives": [
+      "g_flip"
+    ]
+  },
+  "67e8384a": {
+    "source_code": "heuristic:mirror_extend",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "67e8384a",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "68b16354": {
+    "source_code": "(\u03bbinput. (g_flip (g_rot1 input)))",
+    "description_length": 6,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "68b16354",
+    "source": "ast_solver",
+    "primitives": [
+      "g_flip",
+      "g_rot1"
+    ]
+  },
+  "6d0aefbc": {
+    "source_code": "heuristic:geometric_transform",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6d0aefbc",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "6e82a1ae": {
+    "source_code": "heuristic:object_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6e82a1ae",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "6fa7a44f": {
+    "source_code": "heuristic:geometric_transform",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "6fa7a44f",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "74dd1130": {
+    "source_code": "(\u03bbinput. (g_transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "74dd1130",
+    "source": "ast_solver",
+    "primitives": [
+      "g_transpose"
+    ]
+  },
+  "8be77c9e": {
+    "source_code": "heuristic:geometric_transform",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "8be77c9e",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "9172f3a0": {
+    "source_code": "heuristic:scaling",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9172f3a0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "9dfd6313": {
+    "source_code": "(\u03bbinput. (g_transpose input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "9dfd6313",
+    "source": "ast_solver",
+    "primitives": [
+      "g_transpose"
+    ]
+  },
+  "a416b8f3": {
+    "source_code": "heuristic:tiling",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a416b8f3",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "a5313dff": {
+    "source_code": "heuristic:flood_fill",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a5313dff",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "a79310a0": {
+    "source_code": "heuristic:analogy",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "a79310a0",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "aedd82e4": {
+    "source_code": "heuristic:object_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "aedd82e4",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "b1948b0a": {
+    "source_code": "heuristic:color_replace",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b1948b0a",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "b6afb2da": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "b6afb2da",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "bb43febb": {
+    "source_code": "heuristic:color_by_neighbor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "bb43febb",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "be94b721": {
+    "source_code": "heuristic:object_filter",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "be94b721",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "c59eb873": {
+    "source_code": "heuristic:scaling",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c59eb873",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "c8f0f002": {
+    "source_code": "heuristic:color_replace",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c8f0f002",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "c9e6f938": {
+    "source_code": "heuristic:geometric_transform",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "c9e6f938",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "d511f180": {
+    "source_code": "heuristic:color_replace",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "d511f180",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "ea32f347": {
+    "source_code": "heuristic:relational_recolor",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ea32f347",
+    "source": "heuristic",
+    "primitives": []
+  },
+  "ed36ccf7": {
+    "source_code": "(\u03bbinput. (g_rot0 input))",
+    "description_length": 4,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "ed36ccf7",
+    "source": "ast_solver",
+    "primitives": [
+      "g_rot0"
+    ]
+  },
+  "f25ffba3": {
+    "source_code": "heuristic:symmetry_completion",
+    "description_length": 1,
+    "log_likelihood": 0.0,
+    "log_prior": 0.0,
+    "task_id": "f25ffba3",
+    "source": "heuristic",
+    "primitives": []
+  }
+}
