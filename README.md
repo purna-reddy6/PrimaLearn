@@ -2,7 +2,7 @@
 
 **Spelke-Initialized Library Learning Discovers Cross-Domain Abstractions**
 
-*Purna Sainath Reddy V — Manipal Institute of Technology Bengaluru*
+*Purna Sainath Reddy V — Mohan Babu University*
 
 > Paper: [`paper/paper.pdf`](paper/paper.pdf)
 
@@ -201,7 +201,7 @@ bootstrap-substrate/
 ## Citation
 
 ```bibtex
-@article{corry2026quinian,
+@article{reddy2026primalearn,
   title   = {PrimaLearn in Neural Program Synthesis:
              Spelke-Initialized Library Learning Discovers Cross-Domain Abstractions},
   author  = {Reddy V, Purna Sainath},
